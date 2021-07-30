@@ -1,0 +1,16 @@
+name: scicite
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch=1.2.*
+  - spacy=2.2.3
+  - faiss-gpu=1.6.0
+  - pip=19.2.2
+  - pip:
+    - gensim==3.8.3
+    - future==0.18.2
+    - pysolr==3.9.0
+    - rank-bm25==0.2
